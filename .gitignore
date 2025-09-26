@@ -1,0 +1,59 @@
+# =========================
+# Java general
+# =========================
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.zip
+*.tar.gz
+*.rar
+
+# =========================
+# Build directories
+# =========================
+bin/
+out/
+build/
+
+# =========================
+# IDE settings
+# =========================
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
