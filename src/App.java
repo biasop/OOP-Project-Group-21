@@ -11,6 +11,7 @@ public class App extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("home_scene.fxml"));
         Scene scene = new Scene(root);
         primaryStage.setTitle("JavaFX FXML Example");
+        scene.getStylesheets().add(getClass().getResource("nghichlinhtinh.css").toExternalForm());
         primaryStage.setScene(scene);
         primaryStage.show();
     }   
